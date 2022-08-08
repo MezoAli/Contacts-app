@@ -190,3 +190,43 @@ body,
 	cursor: pointer;
 	outline: none;
 }
+
+.search-input {
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	margin: 10px auto;
+}
+
+.add-icon {
+	position: absolute;
+	top: 18px;
+	right: 20px;
+	font-size: 22px;
+	cursor: pointer;
+}
+
+.form-input {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	margin: 100px auto;
+	gap: 25px;
+}
+
+.form-input > input {
+	padding: 10px;
+	border: 1px solid rgba(0, 0, 0, 0, 3);
+}
+
+.form-input > button {
+	padding: 10px;
+	background: #3f3;
+	border: none;
+	font-size: 18px;
+	color: #123456;
+	font-weight: 500;
+	cursor: pointer;
+	box-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+}
